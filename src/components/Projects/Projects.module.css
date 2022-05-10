@@ -1,0 +1,74 @@
+.Projects {
+    background-color: #181818;
+    padding-top: 80px;
+    position: relative;
+    background: url('../../images/background.jpg');
+}
+
+.ProjectItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Paragraph {
+    margin-bottom: 2%;
+    z-index: 1;
+}
+
+.Paragraph p {
+    color: #fff;
+}
+
+.Content {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #181818;
+    margin-bottom: 5%;
+    height: 320px;
+    border-radius: 10px;
+    border: 1px solid #181818;
+    box-shadow: 0 0 10px 2px #383838;
+    width: 30%;
+    cursor: pointer;
+}
+
+.Thumbnail img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.Button a {
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #8c1cd1;
+    border: 1px solid #8c1cd1;;
+    border-radius: 4px;
+    line-height: 32px;
+}
+
+.Button a:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+
+    .Content {
+        z-index: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+.About {
+    padding-top: 80px;
+    background-color: #181818;
+    padding-bottom: 5%;
+}
+
+.Container {
+    display: flex;
+}
+
+.Text {
+    width: 47%;
+    margin-left: 2%;
+}
+
+.Text h2 {
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.Photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.Me {
+    height: 500px;
+    border-radius: 10px;
+    filter: grayscale(30%);
+}
+
+@media (max-width: 600px) {
+    .Container {
+        flex-direction: column;
+    }
+
+    .Text {
+        width: 100%;
+        margin-right: 2%;
+    }
+
+    .Photo {
+        width: 100%;
+    }
+}
