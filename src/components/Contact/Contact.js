@@ -1,4 +1,4 @@
-import {FaPhone, FaInstagramSquare, FaGithub, FaArrowUp} from 'react-icons/fa'
+import {FaPhone, FaGithub, FaArrowUp} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 import classes from './Contact.module.css'
 
@@ -13,7 +13,7 @@ function Contact() {
   return (
     <div id='contact' className={classes.Contact}>
       <div className={classes.Arrow}>
-        <a href='' onClick={handleClick}>
+        <a href='/' onClick={handleClick}>
           <FaArrowUp color='#fff' size='30px'/>
         </a>
       </div>

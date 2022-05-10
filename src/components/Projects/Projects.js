@@ -15,13 +15,13 @@ const content = (url, thumbnail, description) => {
       whileHover={{scale: 1.1}}
     >
       <div className={classes.Thumbnail}>
-        <img src={thumbnail} alt='Project image' />
+        <img src={thumbnail} alt='Project' />
       </div>
       <div className={classes.Text}>
         <p>{description}</p>
       </div>
       <div className={classes.Button}>
-        <a href={url} target='_blank'>Check out</a>
+        <a href={url}>Check out</a>
       </div>
     </motion.div>
   )
