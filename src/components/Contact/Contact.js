@@ -21,10 +21,10 @@ function Contact() {
         <a href='tel:+84943209560'>
           <FaPhone color='#fff' size='30px' />
         </a>
-        <a href='https://github.com/sonDao259' target='_blank'>
+        <a href='https://github.com/sonDao259'>
           <FaGithub color='#fff' size='30px' />
         </a>
-        <a href='mailto:daohoangson560@gmail.com' target='_blank'>
+        <a href='mailto:daohoangson560@gmail.com'>
           <MdEmail color='#fff' size='30px' />
         </a>
       </div>
